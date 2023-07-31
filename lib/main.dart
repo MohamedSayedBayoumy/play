@@ -48,11 +48,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       scrollBehavior: CustomScrollBehavior(),
-
       debugShowCheckedModeBanner: false,
-       
       locale: const Locale("en"),
-      // translations: MyLocaliaizatoin(),
       builder: DevicePreview.appBuilder,
       theme: ligthThemeData,
       darkTheme: darakThemeData,
