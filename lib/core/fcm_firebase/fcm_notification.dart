@@ -26,9 +26,9 @@ class FirebaseFcm {
         firebaseMessagingBackgroundHandler,
       );
 
-  // static getTokenMessage() async {
-  //   var token = await FirebaseMessaging.instance.getToken();
-  //   // CollectionReference saveTokens = Firebase.
-  //   print("TOKEN : $token");
-  // }
+  static getTokenMessage() async {
+    var token = await FirebaseMessaging.instance.getToken();
+    // CollectionReference saveTokens = Firebase.
+    print("TOKEN : $token");
+  }
 }

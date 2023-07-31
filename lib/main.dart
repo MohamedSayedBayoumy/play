@@ -25,7 +25,7 @@ Future<void> main() async {
   SystemChrome.setPreferredOrientations(
       [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]);
   FirebaseFcm.onFcmMessage();
-  // FirebaseFcm.getTokenMessage();
+  FirebaseFcm.getTokenMessage();
   FirebaseFcm.onFcmMessageOpenApp();
   FirebaseFcm.onFcmMessageOnBackGround();
 
